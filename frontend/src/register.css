@@ -1,0 +1,14 @@
+.register_comp {
+    width: 45%;
+    height: 100%;
+    background-color: rgb(252, 252, 247);
+}
+
+.register_main {
+    height: 100%;
+    display:flex;
+
+    justify-content: center;
+    align-items: center;
+    
+}
