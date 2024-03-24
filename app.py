@@ -15,8 +15,8 @@ samples=pd.read_csv("./merged.csv")
 
 
 def telegram_notifier(message = "Maintainence needed"):
-    TOKEN = 
-    CHAT_ID = 
+    TOKEN = ""
+    CHAT_ID = ""
     url = f"https://api.telegram.org/bot{TOKEN}/sendMessage?chat_id={CHAT_ID}&text={message}"
     res2 = requests.post(url)
     # print(res2)
